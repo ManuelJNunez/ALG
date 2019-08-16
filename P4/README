@@ -1,0 +1,7 @@
+El makefile, aparte de la regla por defecto que compila todos los programas, incluye una regla "Prueba" para compilar y ejecutar los 3 algoritmos presentados sobre dos cadenas generadas aleatoriamente de tamaño 15 y 10.
+
+Los programas se pueden ejecutar en dos modos, manual y aleatorio.
+
+Introduciendo de argumento -manual el programa pedira por la entrada estandar las dos cadenas de carácteres sobre las que se calculará la subsecuencia más larga. (Ej.: ./bin/sml-iterativo -manual)
+
+Si se introducen dos argumentos con el tamaño de la cadena A y el de la cadena B estas se generaran aleatoriamente con ese tamaño. (Ej.: ./bin/sml-iterativo 1000 800)
